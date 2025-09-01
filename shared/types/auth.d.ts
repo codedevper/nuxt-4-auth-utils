@@ -1,12 +1,11 @@
+import { UserModel } from "./models/user";
+
 declare module '#auth-utils' {
-  interface User {
+  interface User extends UserModel {
     bluesky?: string
     webauthn?: string
-    id?: string
-    name?: string
     email?: string
     password?: string
-    avatar?: string
     spotify?: string
     gitea?: string
     github?: string
@@ -46,6 +45,9 @@ declare module '#auth-utils' {
     salesforce?: string
     slack?: string
     heroku?: string
+    roblox?: string
+    okta?: string
+    ory?: string
   }
 
   interface UserSession {

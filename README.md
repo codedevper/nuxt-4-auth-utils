@@ -73,4 +73,10 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# nuxt-4-auth-utils
+
+```sh
+pnpm lint
+
+git init && git add -A && git commit -m "initial commit"
+git add -A && git commit -m "initial update"
+```
